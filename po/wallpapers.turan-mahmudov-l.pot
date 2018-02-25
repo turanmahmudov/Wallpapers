@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-25 01:31+0000\n"
+"POT-Creation-Date: 2018-02-25 04:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,40 +17,40 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/Main.qml:47
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/Main.qml:49
 #: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/qml/ui/FiltersPage.qml:11
 #: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/qml/ui/WallpapersPage.qml:16
-#: /home/turan/Apps/Ubuntu/build-Wallpapers-UbuntuSDK_for_builder_amd64_vivid_GCC_amd64_ubuntu_sdk_15_04-Debug/Wallpapers/Wallpapers.desktop.h:1
+#: /home/turan/Apps/Ubuntu/build-Wallpapers-UbuntuSDK_for_builder_armhf_GCC_armhf_ubuntu_sdk_15_04-Debug/Wallpapers/Wallpapers.desktop.h:1
 msgid "Wallpapers"
 msgstr ""
 
-#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/Main.qml:55
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/Main.qml:57
 #: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/qml/ui/AboutPage.qml:8
 msgid "About"
 msgstr ""
 
-#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/Main.qml:67
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/Main.qml:69
 #: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/qml/ui/WallpapersPage.qml:29
 msgid "Search"
 msgstr ""
 
-#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/Main.qml:75
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/Main.qml:77
 msgid "Filter"
 msgstr ""
 
-#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/Main.qml:139
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/Main.qml:141
 msgid "Donate me"
 msgstr ""
 
-#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/Main.qml:140
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/Main.qml:142
 msgid "Donate to support me continue developing for Ubuntu."
 msgstr ""
 
-#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/Main.qml:146
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/Main.qml:148
 msgid "Ignore"
 msgstr ""
 
-#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/Main.qml:152
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/Main.qml:154
 #: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/qml/ui/AboutPage.qml:17
 msgid "Donate"
 msgstr ""

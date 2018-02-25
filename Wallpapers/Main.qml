@@ -33,6 +33,8 @@ MainView {
     property bool is_transfer: false
     property var transfer: null
 
+    property bool downloading: false
+
     // Startup settings
     Settings {
         id: settings
@@ -169,7 +171,6 @@ MainView {
     Connections {
         target: ContentHub
         onExportRequested: {
-            console.log(JSON.stringify(transfer))
             mainView.transfer = transfer
             mainView.is_transfer = true
         }
@@ -193,6 +194,27 @@ MainView {
             onFinished: {
                 destroy()
             }
+        }
+    }
+
+    SingleDownload {
+        id: downloadManager
+
+        onFinished: {
+            mainView.downloading = false
+
+            path = 'file://' + path;
+            var photo_urls = [path]
+
+            var results = photo_urls.map(function(photoUrl) {
+                return photoSelectorResultComponent.createObject(mainView, {"url": photoUrl})
+            })
+
+            mainView.transfer.items = results
+            mainView.transfer.state = ContentTransfer.Charged
+            mainView.transfer = null
+
+            mainView.is_transfer = false
         }
     }
 

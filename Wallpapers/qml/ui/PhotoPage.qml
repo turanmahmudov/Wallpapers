@@ -76,17 +76,9 @@ Page {
     property var photoDetails
 
     function confirmExport() {
-        var photo_urls = [photoDetails.url_image]
+        downloadManager.download(photoDetails.url_image)
 
-        var results = photo_urls.map(function(photoUrl) {
-            return photoSelectorResultComponent.createObject(mainView, {"url": photoUrl})
-        })
-
-        mainView.transfer.items = results
-        mainView.transfer.state = ContentTransfer.Charged
-        mainView.transfer = null
-
-        mainView.is_transfer = false
+        mainView.downloading = true
     }
 
     function cancelExport() {
@@ -116,23 +108,36 @@ Page {
             top: photoPage.header.bottom
         }
 
-        Column {
+        Image {
+            id: photo
+            visible: photo.status == Image.Ready
             width: parent.width
-            spacing: 5
+            height: photoDetails.height/(photoDetails.width/width)
+            sourceSize.width: width
+            sourceSize.height: height
+            anchors.horizontalCenter: parent.horizontalCenter
+            clip: true
+            source: photoDetails.url_image
+            smooth: true
+            fillMode: Image.PreserveAspectFit
+        }
 
-            Image {
-                id: photo
-                visible: photo.status == Image.Ready
-                width: parent.width
-                height: photoDetails.height/(photoDetails.width/width)
-                sourceSize.width: width
-                sourceSize.height: height
-                anchors.horizontalCenter: parent.horizontalCenter
-                clip: true
-                source: photoDetails.url_image
-                smooth: true
-                fillMode: Image.PreserveAspectFit
+        Item {
+            id: indicator
+            z: 1000
+            anchors.centerIn: photo
+            opacity: mainView.downloading ? 1 : 0
+
+            Behavior on opacity {
+                UbuntuNumberAnimation {
+                    duration: UbuntuAnimation.SlowDuration
+                }
+            }
+
+            ActivityIndicator {
+                id: activity
+                running: true
             }
         }
-}
+    }
 }
