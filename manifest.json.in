@@ -1,0 +1,16 @@
+{
+    "name": "wallpapers.turan-mahmudov-l",
+    "description": "HD Wallpapers",
+    "architecture": "@CLICK_ARCH@",
+    "title": "Wallpapers",
+    "hooks": {
+        "Wallpapers": {
+            "apparmor": "Wallpapers/Wallpapers.apparmor",
+            "desktop": "Wallpapers/Wallpapers.desktop",
+            "content-hub": "Wallpapers/content.json"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Turan Mahmudov <turan.mahmudov@gmail.com>",
+    "framework": "ubuntu-sdk-15.04.6"
+}

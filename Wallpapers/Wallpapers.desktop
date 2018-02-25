@@ -1,0 +1,7 @@
+[Desktop Entry]
+_Name=Wallpapers
+Exec=Wallpapers
+Icon=Wallpapers/Wallpapers.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true

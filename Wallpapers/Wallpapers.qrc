@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Main.qml</file>
+        <file>qml/ui/AboutPage.qml</file>
+        <file>qml/ui/WallpapersPage.qml</file>
+        <file>Wallpapers.png</file>
+        <file>qml/ui/FiltersPage.qml</file>
+        <file>qml/js/scripts.js</file>
+        <file>qml/js/Worker.js</file>
+        <file>qml/components/BouncingProgressBar.qml</file>
+        <file>qml/ui/PhotoPage.qml</file>
+        <file>qml/images/blank.png</file>
+        <file>qml/components/ContentDownloadDialog.qml</file>
+    </qresource>
+</RCC>

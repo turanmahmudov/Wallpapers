@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-25 01:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/Main.qml:47
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/qml/ui/FiltersPage.qml:11
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/qml/ui/WallpapersPage.qml:16
+#: /home/turan/Apps/Ubuntu/build-Wallpapers-UbuntuSDK_for_builder_amd64_vivid_GCC_amd64_ubuntu_sdk_15_04-Debug/Wallpapers/Wallpapers.desktop.h:1
+msgid "Wallpapers"
+msgstr ""
+
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/Main.qml:55
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/qml/ui/AboutPage.qml:8
+msgid "About"
+msgstr ""
+
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/Main.qml:67
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/qml/ui/WallpapersPage.qml:29
+msgid "Search"
+msgstr ""
+
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/Main.qml:75
+msgid "Filter"
+msgstr ""
+
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/Main.qml:139
+msgid "Donate me"
+msgstr ""
+
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/Main.qml:140
+msgid "Donate to support me continue developing for Ubuntu."
+msgstr ""
+
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/Main.qml:146
+msgid "Ignore"
+msgstr ""
+
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/Main.qml:152
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/qml/ui/AboutPage.qml:17
+msgid "Donate"
+msgstr ""
+
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/qml/ui/AboutPage.qml:62
+msgid "Wallpapers Application"
+msgstr ""
+
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/qml/ui/AboutPage.qml:90
+msgid "Released under the terms of the GNU GPL v3"
+msgstr ""
+
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/qml/ui/AboutPage.qml:99
+#, qt-format
+msgid "Source code available on %1"
+msgstr ""
+
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/qml/ui/FiltersPage.qml:15
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/qml/ui/WallpapersPage.qml:34
+msgid "Close"
+msgstr ""
+
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/qml/ui/FiltersPage.qml:37
+msgid "Save"
+msgstr ""
+
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/qml/ui/FiltersPage.qml:63
+msgid "Latest"
+msgstr ""
+
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/qml/ui/FiltersPage.qml:64
+msgid "Ratings"
+msgstr ""
+
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/qml/ui/FiltersPage.qml:65
+msgid "Views"
+msgstr ""
+
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/qml/ui/FiltersPage.qml:66
+msgid "Favorites"
+msgstr ""
+
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/qml/ui/FiltersPage.qml:73
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/qml/ui/FiltersPage.qml:172
+msgid "All"
+msgstr ""
+
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/qml/ui/FiltersPage.qml:74
+msgid "HD Wallpapers"
+msgstr ""
+
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/qml/ui/FiltersPage.qml:75
+msgid "UltraHD 4k Wallpapers"
+msgstr ""
+
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/qml/ui/FiltersPage.qml:76
+msgid "Retina 5k Wallpapers"
+msgstr ""
+
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/qml/ui/FiltersPage.qml:172
+msgid "Featured"
+msgstr ""
+
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/qml/ui/FiltersPage.qml:273
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/qml/ui/FiltersPage.qml:345
+msgid "Sort by"
+msgstr ""
+
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/qml/ui/FiltersPage.qml:313
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/qml/ui/FiltersPage.qml:370
+msgid "Resolution"
+msgstr ""
+
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/qml/ui/PhotoPage.qml:16
+msgid "Make Wallpaper"
+msgstr ""
+
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/qml/ui/PhotoPage.qml:24
+msgid "Download"
+msgstr ""
+
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/qml/ui/PhotoPage.qml:35
+msgid "Go to Collection"
+msgstr ""
+
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/qml/ui/PhotoPage.qml:52
+msgid "Go to Group"
+msgstr ""
+
+#: /home/turan/Apps/Ubuntu/Wallpapers/Wallpapers/qml/ui/PhotoPage.qml:69
+msgid "Photo"
+msgstr ""
